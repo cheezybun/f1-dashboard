@@ -2148,7 +2148,7 @@ if __name__ == '__main__':
         exp = cols[1].expander('Team wise Constructors win')
         exp.image('./assets/Home/8.png')
         exp = cols[2].expander('F1 circuits around the world')
-        exp.image('./assets/Home/9.png')
+        exp.image('./assets/Home/9.gif')
 
 
 
