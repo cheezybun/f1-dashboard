@@ -2141,11 +2141,14 @@ if __name__ == '__main__':
         st.image('./assets/Home/6.png')
 
         
-        st.markdown('''<span style="font-family:syne; font-size:18px">Comparative Driver Analysis</span>''',unsafe_allow_html=True)
-        cols = st.columns(2)
-        exp = cols[0].expander('Country with more wins')
+        st.markdown('''<span style="font-family:syne; font-size:18px">Country with most Wins</span>''',unsafe_allow_html=True)
+        cols = st.columns(1)
+        exp = cols[0].expander('Country wise wins')
         exp.image('./assets/Home/7.png')
-        exp = cols[1].expander('Team wise Constructors win')
+        
+        st.markdown('''<span style="font-family:syne; font-size:18px">Team with most Wins</span>''',unsafe_allow_html=True)
+        cols = st.columns(1)
+        exp = cols[0].expander('Team wise Constructors win')
         exp.image('./assets/Home/8.png')
         
         st.markdown('''<span style="font-family:syne; font-size:18px">Track Locations</span>''',unsafe_allow_html=True)
