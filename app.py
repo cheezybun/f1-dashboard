@@ -1464,7 +1464,7 @@ if __name__ == '__main__':
 
     # page configuration
     st.set_option('deprecation.showPyplotGlobalUse', False)
-    st.set_page_config(page_title="F1-Web-Paddock",layout="wide",initial_sidebar_state="expanded",page_icon='./assets/tab-logo.png')
+    st.set_page_config(page_title="Formula 1 Paddock",layout="wide",initial_sidebar_state="expanded",page_icon='./assets/tab-logo.png')
     
 
     # # font-base64
@@ -1535,7 +1535,7 @@ if __name__ == '__main__':
 
     # Categories -- Change Order to, About, Current Season, Previous Season, The F1 Glossary
     # category = st.sidebar.selectbox('Select', ['Current Season', 'Previous Seasons', 'About', 'The F1 Glossary'])
-    category = st.sidebar.selectbox('Select Timeline', ['Home Page', 'Current Season', 'Previous Seasons'])
+    category = st.sidebar.selectbox('Select Timeline', ['Home Page','Analysis' 'Current Season', 'Previous Seasons'])
     
 
     if category == 'Previous Seasons':
