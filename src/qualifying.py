@@ -7,7 +7,7 @@ def img_to_bytes(img_path):
     encoded = base64.b64encode(img_bytes).decode()
     return encoded
 
-def qualifying():
+def qualifying_cs():
     
 
     # fonts-style preset
@@ -37,12 +37,12 @@ def qualifying():
     st.sidebar.markdown('***')
 
     
-    cols = st.columns([3.5,4])
+    '''cols = st.columns([3.5,4])
     cols[0].image('./assets/home/f1.jpg')
     info = '''
     "Here is a Analysis portal directly taking you into the Team Paddocks giving you a deeper look into the most constructors wins,most driver titles,number of grandprix and much more."
     '''
-    cols[1].markdown(f'''<h3 style="font-family:syne">For Formula One fans,<br> <span style='font-size:22px;'>{info}</span></h3>''',unsafe_allow_html=True)
+    cols[1].markdown(f'''<h3 style="font-family:syne">For Formula One fans,<br> <span style='font-size:22px;'>{info}</span></h3>''',unsafe_allow_html=True)'''
     
     
 
