@@ -2094,6 +2094,9 @@ if __name__ == '__main__':
     
     elif category == 'Home Page':
         about_cs()
+        
+    elif category == 'Analysis':
+        qualifying_cs()
 
 
 
