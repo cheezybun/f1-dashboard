@@ -2116,12 +2116,7 @@ if __name__ == '__main__':
         '''
         st.markdown(style,unsafe_allow_html=True)
 
-        
-        st.markdown('''<center><h4 style="font-family:syne;font-weight:900;">Analysis</h4></center>''',unsafe_allow_html=True)
-        st.markdown('***')
-        st.sidebar.markdown('***')
-        
-        
+   
         st.markdown('***')
         st.markdown('''<center><span style="font-family:syne;font-weight:800; font-size:25px">Analysis</span></center>''',unsafe_allow_html=True)
         st.markdown('***')
