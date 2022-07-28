@@ -38,7 +38,7 @@ def qualifying_cs():
 
     
     cols = st.columns([3.5,4])
-    cols[0].image('./assets/f1.png')
+    cols[0].image('./assets/home/f1.jpg')
     info = '''
     "Here is a Analysis portal directly taking you into the Team Paddocks giving you a deeper look into the most constructors wins,most driver titles,number of grandprix and much more."
     '''
