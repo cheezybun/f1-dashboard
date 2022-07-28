@@ -2114,7 +2114,6 @@ if __name__ == '__main__':
         }
         </style>
         '''
-        st.markdown('***')
         st.markdown('''<center><span style="font-family:syne;font-weight:800; font-size:25px">Analysis</span></center>''',unsafe_allow_html=True)
         st.markdown('***')
         st.markdown(f'''<span style="font-family:syne; font-size:25px">Constructors championship Ranking 2022<sub style='font-size:15px'>(<img src='data:image/png;base64,{img_to_bytes('./assets/checkered-flag.png')}' class='img-fluid' width=25> completed)</sub></span>''',unsafe_allow_html=True)
