@@ -2120,17 +2120,8 @@ if __name__ == '__main__':
         st.markdown('''<center><h4 style="font-family:syne;font-weight:900;">Analysis</h4></center>''',unsafe_allow_html=True)
         st.markdown('***')
         st.sidebar.markdown('***')
-
-        
-        '''cols = st.columns([3.5,4])
-        cols[0].image('./assets/home/f1.jpg')
-        info = '''
-        "Here is a Analysis portal directly taking you into the Team Paddocks giving you a deeper look into the most constructors wins,most driver titles,number of grandprix and much more."
-        '''
-        cols[1].markdown(f'''<h3 style="font-family:syne">For Formula One fans,<br> <span style='font-size:22px;'>{info}</span></h3>''',unsafe_allow_html=True)'''
         
         
-
         st.markdown('***')
         st.markdown('''<center><span style="font-family:syne;font-weight:800; font-size:25px">Analysis</span></center>''',unsafe_allow_html=True)
         st.markdown('***')
