@@ -2114,9 +2114,6 @@ if __name__ == '__main__':
         }
         </style>
         '''
-        st.markdown(style,unsafe_allow_html=True)
-
-   
         st.markdown('***')
         st.markdown('''<center><span style="font-family:syne;font-weight:800; font-size:25px">Analysis</span></center>''',unsafe_allow_html=True)
         st.markdown('***')
