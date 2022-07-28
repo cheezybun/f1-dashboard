@@ -1535,7 +1535,7 @@ if __name__ == '__main__':
 
     # Categories -- Change Order to, About, Current Season, Previous Season, The F1 Glossary
     # category = st.sidebar.selectbox('Select', ['Current Season', 'Previous Seasons', 'About', 'The F1 Glossary'])
-    category = st.sidebar.selectbox('Select Timeline', ['Home Page','Analysis' 'Current Season', 'Previous Seasons'])
+    category = st.sidebar.selectbox('Select Timeline', ['Home Page','Analysis','Current Season', 'Previous Seasons'])
     
 
     if category == 'Previous Seasons':
