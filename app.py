@@ -2096,7 +2096,7 @@ if __name__ == '__main__':
         about_cs()
         
     elif category == 'Analysis':
-        qualifying_cs()
+        qualifying()
 
 
 
